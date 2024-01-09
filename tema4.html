@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Do you want people to click on your search result? Learn how to write the best meta description. Including 7 characteristics and examples!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg" href="billeder/muslinglogo.svg">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/tema.css">
+    <title>Tema 4</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="billeder/muslinglogo.svg" alt="logo"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="projekter.html">Projekter</a></li>
+                <li><a href="ommig.html">Om mig</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+
+
+    </header>
+    <main>
+        <div class="brodkrummesti">
+            <a href="index.html">Forside</a> /
+            <a href="projekter.html">Projekter</a> /
+            <span>Tema 4</span>
+        </div>
+        <h1>TEMA 4.</h1>
+        <h2>Animation</h2>
+
+        <p id="temabeskrivelse">I tema 4 blev vi introduceret til to forholdsvis nye værktøjer, nemlig
+            Javascript
+            og
+            Adobe Illustrator, som
+            vi skulle
+            bruge til at skabe et computerspil med dynamik og bevægelse, og forskellige grafiske elementer såsom figurer
+            og
+            baggrunde.
+            Til udviklingen af vores spil, blev vi introduceret for henholdsvis aktivitetsdiagrammer og State
+            Machine-diagrammer,
+            som viste sig at være en behjælpelig faktor for udviklingen af vores spil.
+        </p>
+        <div id="spil_billeder" class="grid_1_1">
+            <div>
+                <a href="https://creativemolly.dk/kea/04_ani/website/index.html "><img src="styles/spil.svg"
+                        alt="spil"></a>
+                <a href="https://creativemolly.dk/kea/04_ani/website/index.html "><img class="spil2"
+                        src="styles/spil2.svg" alt="spil2"></a>
+
+            </div>
+            <div class="order">
+                <h3>04.04.01 Temaopgave</h3>
+                <p class="opgavebeskrivelse">Vi lærte om forskellige designprincipper, hvor jeg i mit spil, vi skulle
+                    lave i 04.04.01 Temaopgave,
+                    valgte at gøre brug af baby bias på min
+                    karakter for at
+                    skabe et ”cutie”- udtryk med f.eks. karakteristikkerne store øjne og stort hoved. <br> Det
+                    resterende
+                    design har inspiration
+                    fra flat design, som er minimalistisk, med lyse farver og med få detaljer. Designmæssigt ville jeg
+                    have ændret på
+                    farvekontrasten mellem mine figurer og mine baggrunde, hvis jeg skulle lave et spillet igen, for at
+                    gøre elementerne
+                    tydeligere og mere adskillelige for øjet. <br> <br>
+                    Et andet mål og krav for opgaven var, at vi skulle designe og kode forskellige UI-elementer, og det
+                    var her min
+                    Javascript-læringsproces blev sat mest på prøve. Vi lærte bl.a. hvordan, man mister liv, hvordan man
+                    får en timer til at
+                    udløbe, som tiden går, og hvordan man får point, når man klikker på en figur. Jeg udførte opgaverne
+                    ved at lave
+                    forskellige Javascript-øvelser specifikt til de forskellige UI-elementer. Jeg fandt ud af, at man
+                    kan have flere skærme
+                    inden for samme html-side ved at bruge f.eks.
+                    document.querySelector("#level_complete") .classList.remove("hide"); eller
+                    document.querySelector("#level_complete") .classList.add("hide");, som jeg tænker at få nytte af
+                    fremover.
+                    <br>
+                    <br>
+                    Vi lærte om sprite- og container-elementer, og jeg fik en forståelse for, hvilke css-egenskaber – og
+                    værdier, der skal
+                    placeres på hvilket element. Fx skal positioneringen ligge på containeren og selve billedet/svg’en
+                    ligge på spriten.
+                    Ydermere lærte vi om css-positionering, hvor man placerer ”position: fixed, relative, static, sticky
+                    eller absolute” på
+                    container-elementet, og jeg fandt ud af, at det kunne bruges til at bestemme, om elementet skal
+                    følge sidens flow eller
+                    ej. I mit spil brugte jeg ”position: absolute” på min container for at tillade mine figurer at
+                    overlappe hinanden, når
+                    de faldt ned fra oven.
+
+                </p>
+                <p class="link">
+                    URL:
+                    https://creativemolly.dk/kea/04_ani/website/index.html
+                </p>
+            </div>
+
+        </div>
+
+        <div class="projekter_knapper">
+            <a class="projekter_knap" href="tema3.html">Forrige projekt</a>
+            <a class="projekter_knap" href="tema5.html">Næste projekt</a>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="menu.js"></script>
+</body>
+
+</html>

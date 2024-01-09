@@ -1,0 +1,69 @@
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 100px;
+  padding-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+img {
+  width: 100%;
+}
+h1 {
+  font-size: 5rem;
+  font-family: "Prompt", sans-serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+p {
+  font-size: 1rem;
+  font-family: "Assistant", sans-serif;
+  padding-top: 2%;
+  font-weight: 100;
+  line-height: 30px;
+}
+h2 {
+  font-size: 1.5rem;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 5%;
+  padding-top: 5%;
+}
+.grid_3_2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding-bottom: 30%;
+  background-image: url(baggrundsbillede.webp);
+  background-size: cover;
+}
+.grid_3_2 img {
+  width: 60%;
+  padding-top: 12%;
+}
+.cv-box {
+  padding-top: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.mig img {
+  border: solid #ff7553;
+  width: 80%;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .grid_1_1,
+  .grid_3_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: none;
+  }
+
+  .mig img {
+    width: 100%;
+  }
+  .grid_3_2 {
+    text-align: center;
+  }
+}

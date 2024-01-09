@@ -1,0 +1,127 @@
+.container {
+  margin-top: 5%;
+  padding-right: 20%;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Prompt", sans-serif;
+  margin-left: 5%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Assistant", sans-serif;
+  margin-left: 5%;
+}
+
+.grid_5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 10%;
+  background-image: url(baggrundsbillede.webp);
+  background-size: cover;
+}
+
+.tema-box {
+  overflow: hidden;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  padding-bottom: 300px;
+  position: relative;
+}
+
+/* forklar nedenstående*/
+.tema-box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 1px;
+  background: linear-gradient(to top, transparent, #000);
+}
+#tema2:hover {
+  background-image: url(sincerely-media-zw8t5aMmJQQ-unsplash.webp);
+  background-size: cover;
+}
+#tema3:hover {
+  background-image: url(kokken.webp);
+  background-size: cover;
+}
+
+#tema5:hover {
+  background-image: url(hej.webp);
+  background-size: cover;
+}
+
+#tema4:hover {
+  background-image: url(tema4.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.tema-box p {
+  display: block;
+  font-size: 8rem;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.tema-box a {
+  display: block;
+  border: 1px solid #000;
+  color: #000;
+  background-color: #f6f2e5;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 1rem;
+  width: 50%;
+  margin: 25%;
+}
+
+.projekter {
+  border-bottom: 0.5px solid #ff7553;
+}
+
+.projekter_tekst {
+  line-height: 30px;
+  margin-right: 20%;
+}
+
+.tal {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .grid_5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: none;
+  }
+
+  .tema-box {
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    background-image: url(baggrundsbillede.webp);
+    background-size: cover;
+  }
+  #tema2:hover,
+  #tema3:hover,
+  #tema4:hover,
+  #tema5:hover,
+  #tema6:hover {
+    background-image: none;
+  }
+  .container {
+    padding-right: 0;
+  }
+  .projekter_tekst {
+    margin-right: 5%;
+  }
+}
